@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+background-color: blue;
+padding-top: 50px;
+}
+.card {
+    background-color: gold;
+    width: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+button {
+    width: 30px;
+    background-color: rgba(8, 4, 243, 0.548);
+}
+h1 {
+    font-size: 50px;
+}
